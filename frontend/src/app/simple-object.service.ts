@@ -11,6 +11,6 @@ export class SimpleObjectService {
   }
 
   getAll(): Observable<any> {
-    return this.http.get('//localhost:8080/deployexample/simple-objects');
+    return this.http.get('//localhost:8080/simple-objects');
   }
 }
